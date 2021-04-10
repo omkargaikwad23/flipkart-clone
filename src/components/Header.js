@@ -3,8 +3,12 @@ import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import './Header.css'
+import './LoginT.css'
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
+import MoreT from './MoreT'
+import LoginT from './LoginT';
+import 'tippy.js/themes/light.css'
 
 const Header = () => {
     return (
@@ -34,13 +38,23 @@ const Header = () => {
             </div>
 
             <div className='header__third'>
-                <Tippy content="logintooltip">
+                <Tippy
+                    theme="light"
+                    content={<LoginT></LoginT>}
+                    interactive={true}
+                    offset={[5, 18]}>
                     <button>Login</button>
                 </Tippy>
             </div>
 
             <div className='header__forth'>
-                <span>More</span>
+                <Tippy
+                    theme="light"
+                    content={<MoreT></MoreT>}
+                    offset={[5, 18]}
+                    interactive={true}>
+                    <span>More</span>
+                </Tippy>
                 <ExpandMoreIcon />
             </div>
 
