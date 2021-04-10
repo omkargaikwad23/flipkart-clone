@@ -62,7 +62,6 @@ const Header = () => {
                 <ShoppingCartIcon />
                 <p>Cart</p>
             </div>
-
         </div>
     )
 }

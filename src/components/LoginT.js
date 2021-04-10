@@ -12,7 +12,7 @@ const LoginT = () => {
     <div className="logint">
       <div className="logint__in">
         <h4>New Customer?</h4>
-        <h4 style={{ color: '#2874f0' }}>Sign Up</h4>
+        <h4 style={{ paddingLeft: '30px' }}><a style={{ color: '#2874f0' }} href="#">Sign Up</a></h4>
       </div>
       <hr />
       <div className="logint__in">
