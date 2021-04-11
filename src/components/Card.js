@@ -9,6 +9,7 @@ const Card = ({ offerPrice, actualPrice, image, name, rating }) => {
   var number = parseFloat(actualPrice.split(',').join(''));
   const offer = Math.floor((number - offerPrice) / number * 100)
 
+  offerPrice = offerPrice.toLocaleString('en')
 
   const [index, setIndex] = useState(0)
   const [show, setShow] = useState(false)

@@ -1,0 +1,36 @@
+.filter {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+
+  justify-content: space-evenly;
+
+  z-index: 100;
+  border-bottom: 1px solid;
+  border-color: rgb(201, 201, 201);
+  margin-bottom: 10px;
+  padding: 4px;
+  box-shadow: 0.1px 0.1px 10px rgb(216, 216, 216);
+}
+
+.filter > span {
+  padding-left: 5px;
+  padding-right: 5px;
+
+  align-items: center;
+  display: flex;
+
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.filter > .MuiSvgIcon-root:hover,
+span:hover {
+  color: #2874f0;
+  cursor: pointer;
+}
+
+.filter > span > .MuiSvgIcon-root {
+  color: gray;
+  opacity: 0.7;
+}

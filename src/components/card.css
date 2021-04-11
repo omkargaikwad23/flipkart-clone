@@ -1,6 +1,7 @@
 .card {
   padding: 20px;
   object-fit: contain;
+  margin: 3px;
 }
 .card > .dots {
   width: 10px;
@@ -9,13 +10,15 @@
 }
 .card:hover {
   cursor: pointer;
-  box-shadow: 0.2px 0.2px 10px rgb(216, 216, 216);
+  box-shadow: 0.4px 0.4px 20px rgb(216, 216, 216);
   transform: scale(1.02);
   transition: 0.4s;
 }
-.card:hover > .card__image {
-  transform: scale(1.05);
+.card > .card__image:hover {
+  transform: scale(1.07);
+
   transition: 0.5s;
+  transition-delay: 0.5s;
 }
 .card > .card__image > img {
   width: 200px;
@@ -28,6 +31,9 @@
   color: lightgray;
 }
 
+.card__details {
+  background-color: white;
+}
 .card__details > .title {
   font-size: 17px;
   font-weight: 600;
@@ -40,13 +46,15 @@
   align-items: center;
   font-weight: 500;
   font-size: 14px;
-  padding-left: 3px;
+  padding-left: 4px;
   border-radius: 14px;
   color: white;
 }
 .card__details > .ratings > .MuiSvgIcon-root {
-  font-size: 14px;
-  padding-right: 3px;
+  font-size: 12px;
+  padding-right: 4px;
+  align-items: center;
+  cursor: pointer;
 }
 .card__details > p {
   font-size: 14px;

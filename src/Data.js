@@ -2,7 +2,7 @@ export const Data = [
   {
     offerPrice: 2999,
     actualPrice: "4,999",
-    rating: 4,
+    rating: 5,
     name: "shoe",
     image: [
       "https://rukminim1.flixcart.com/image/714/857/kn4xhu80/shoe/1/r/w/9-hks65-reebok-black-semisolaryellow-original-imagfwftmtn32ght.jpeg?q=50",
@@ -16,7 +16,7 @@ export const Data = [
   {
     offerPrice: 1799,
     actualPrice: "2,999",
-    rating: 5,
+    rating: 4.8,
     name: "shoe",
     image: [
       "https://rukminim1.flixcart.com/image/880/1056/kmxsakw0/shoe/c/y/g/6-zd970-7-reebok-trugr7-cblack-pugry4-original-imagfq9rndgmsckg.jpeg?q=50",
@@ -28,7 +28,7 @@ export const Data = [
   {
     offerPrice: 2999,
     actualPrice: "3,559",
-    rating: 4,
+    rating: 4.5,
     name: "shoe",
     image: [
       "https://rukminim1.flixcart.com/image/880/1056/keuagsw0-0/shoe/a/p/o/374765-10-puma-white-black-high-risk-red-original-imafvfhgjs7yfyj8.jpeg?q=50",
@@ -67,7 +67,7 @@ export const Data = [
   {
     offerPrice: 999,
     actualPrice: "1,999",
-    rating: 3,
+    rating: 4.3,
     name: "shoe",
     image: [
       "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQmJYStYtU8tuhWAHTkl7KQuS7XkmA0nub5JtRht_WwDcehgYYajyBaGVOxzG9Kq1TjRlwR2Rml8xyizazIDi-mkK_SI2FGX-BHDz87SRzYMOQx15p9RYUZ&usqp=CAE",
@@ -83,25 +83,25 @@ export const Data = [
     ],
   },
   {
-    offerPrice: 4099,
-    actualPrice: "9,900",
+    offerPrice: 499,
+    actualPrice: "900",
     rating: 4,
     name: "short",
     image: ["https://www.rei.com/media/product/145578"],
   },
   {
-    offerPrice: 6990,
-    actualPrice: "12,699",
-    rating: 3,
+    offerPrice: 990,
+    actualPrice: "1,699",
+    rating: 3.9,
     name: "short",
     image: [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfPuXkPk2lTykOYTDL_iY4OfaR6v2BU-355g&usqp=CAU",
     ],
   },
   {
-    offerPrice: 3599,
-    actualPrice: "11,299",
-    rating: 2,
+    offerPrice: 599,
+    actualPrice: "1,299",
+    rating: 4.7,
     name: "short",
     image: [
       "https://contents.mediadecathlon.com/p827233/e1718060df09a80062c720d80d1fa465/p827233.jpg?f=650x650&format=auto",
@@ -119,7 +119,7 @@ export const Data = [
   {
     offerPrice: 399,
     actualPrice: "479",
-    rating: 3,
+    rating: 3.9,
     name: "short",
     image: [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRvz5YFwmGKMNR5hGZyFYCadI6DFiJ3j9SVJQ&usqp=CAU",
@@ -162,8 +162,8 @@ export const Data = [
     ],
   },
   {
-    offerPrice: 6999,
-    actualPrice: "9,999",
+    offerPrice: 999,
+    actualPrice: "1,999",
     rating: 3,
     name: "skirt",
     image: [
@@ -182,7 +182,7 @@ export const Data = [
   {
     offerPrice: 4999,
     actualPrice: "7999",
-    rating: 2,
+    rating: 4.2,
     name: "skirt",
     image: [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQRGYFs-8ivzvuklXExBSgMYMAkdo5sEhokvA&usqp=CAU",
@@ -200,7 +200,7 @@ export const Data = [
   {
     offerPrice: 299,
     actualPrice: "899",
-    rating: 3,
+    rating: 3.8,
     name: "skirt",
     image: [
       "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/4914118/2018/6/7/5f0d25c6-0a26-4dec-815f-02a37d6cf1a41528375698888-HERENOW-Women-Skirts-4431528375698828-2.jpg",
@@ -208,8 +208,8 @@ export const Data = [
   },
   {
     offerPrice: 499,
-    actualPrice: "799",
-    rating: 4,
+    actualPrice: "999",
+    rating: 4.0,
     name: "skirt",
     image: [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPcxIhPZaX65KQlCPS7JdtmhqrwQMMSh3jRJEZ4dkhyzyi1-f0OoAAtgEoeNaBIM6G_2XA5g4&usqp=CAc",
@@ -218,7 +218,7 @@ export const Data = [
   {
     offerPrice: 99,
     actualPrice: "999",
-    rating: 3,
+    rating: 3.7,
     name: "skirt",
     image: [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSaNQ-MwfRTFMu5yaWr5t7_zC8d9QtUXsOz9jy1UcJIymNNHMl9hSsOO_gBc_QxZ8pzPs01ocsg&usqp=CAc",
@@ -226,8 +226,8 @@ export const Data = [
   },
   {
     offerPrice: 999,
-    actualPrice: "1,199",
-    rating: 5,
+    actualPrice: "2,199",
+    rating: 5.0,
     name: "skirt",
     image: [
       "https://rukminim1.flixcart.com/image/800/960/k7285u80/skirt/x/p/n/free-bindi-purple-skirt-hukam-creation-original-imafpdauh3jkuztc.jpeg?q=50",
@@ -235,8 +235,8 @@ export const Data = [
   },
   {
     offerPrice: 799,
-    actualPrice: "899",
-    rating: 3,
+    actualPrice: "1,899",
+    rating: 4.4,
     name: "skirt",
     image: [
       "https://rukminim1.flixcart.com/image/800/960/kar44280/skirt/m/s/b/free-ucskt05maroon-unique-choice-original-imafs9hejs7fpbah.jpeg?q=50",
@@ -255,7 +255,7 @@ export const Data = [
   {
     offerPrice: 999,
     actualPrice: "1,999",
-    rating: 4,
+    rating: 4.3,
     name: "pant",
     image: [
       "https://www.lespetits.in/pub/media/catalog/product/cache/90a79a4c6002305cc8af303e36fd8ed3/f/e/fendi-black-jeans-44953-1.jpg",
@@ -264,7 +264,7 @@ export const Data = [
   {
     offerPrice: 899,
     actualPrice: "1299",
-    rating: 3,
+    rating: 3.7,
     name: "pant",
     image: [
       "https://pnh-preprod.oss-ap-south-1.aliyuncs.com/20200305/3_1583409445963.2_1583409445963.jpeg?x-oss-process=style/thumb",
@@ -273,7 +273,7 @@ export const Data = [
   {
     offerPrice: 999,
     actualPrice: "1,999",
-    rating: 4,
+    rating: 4.6,
     name: "pant",
     image: [
       "https://pantaloons.imgix.net/img/app/product/4/461136-3191179.jpg?w=83&auto=format",
@@ -282,32 +282,32 @@ export const Data = [
   {
     offerPrice: 999,
     actualPrice: "5,999",
-    rating: 2,
+    rating: 4.3,
     name: "pant",
     image: [
       "https://pantaloons.imgix.net/img/app/product/4/461130-3191143.jpg?w=83&auto=format",
     ],
   },
   {
-    offerPrice: 799,
+    offerPrice: 1799,
     actualPrice: "3,999",
-    rating: 4,
+    rating: 4.3,
     name: "pant",
     image: [
       "https://rukminim1.flixcart.com/image/800/960/jk1grrk0/jean/z/7/h/28-jeans100-star-girl-s-original-imaf6ue99ffhv2sd.jpeg?q=50",
     ],
   },
   {
-    offerPrice: 699,
-    actualPrice: "1,999",
-    rating: 1,
+    offerPrice: 1699,
+    actualPrice: "3,999",
+    rating: 5.0,
     name: "pant",
     image: ["https://5.imimg.com/data5/AG/TB/MY-10139824/15-500x500.jpg"],
   },
   {
     offerPrice: 699,
     actualPrice: "1,999",
-    rating: 4,
+    rating: 4.9,
     name: "pant",
     image: [
       "https://redbridgejeans.de/media/image/product/65680/lg/m4249_red-bridge-mens-jeans-pants-slim-fit-denim-stonewashed-arena-m4249_16~4.jpg",
@@ -316,7 +316,7 @@ export const Data = [
   {
     offerPrice: 1999,
     actualPrice: "2,999",
-    rating: 3,
+    rating: 4.9,
     name: "pant",
     image: [
       "http://udaipurbazar.com/images/thumbs/0000988_denim-knot-pant-high-waist-pants-online-for-girls_510.jpeg",
@@ -325,7 +325,7 @@ export const Data = [
   {
     offerPrice: 599,
     actualPrice: "999",
-    rating: 3,
+    rating: 3.6,
     name: "shirt",
     image: [
       "https://5.imimg.com/data5/UC/TY/MY-9601095/100-25-cotton-fancy-casual-shirt-for-men-500x500.jpg",
@@ -334,7 +334,7 @@ export const Data = [
   {
     offerPrice: 7999,
     actualPrice: "9,989",
-    rating: 4,
+    rating: 4.8,
     name: "shirt",
     image: [
       "https://cdn.andamen.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/0/1/01_29_20.jpg",
@@ -343,14 +343,14 @@ export const Data = [
   {
     offerPrice: 6999,
     actualPrice: "10,999",
-    rating: 4,
+    rating: 4.5,
     name: "shirt",
     image: ["https://cdn.andamen.com/media/catalog/product/0/1/01_9_43.jpg"],
   },
   {
     offerPrice: 699,
     actualPrice: "1,799",
-    rating: 3,
+    rating: 3.5,
     name: "shirt",
     image: [
       "https://cdn.shopclues.com/images1/thumbnails/98477/320/320/144857292-98477886-1580365831.jpg",
@@ -359,16 +359,16 @@ export const Data = [
   {
     offerPrice: 899,
     actualPrice: "989",
-    rating: 2,
+    rating: 4.8,
     name: "shirt",
     image: [
       "https://cdn.shopclues.com/images1/thumbnails/98477/320/320/144857292-98477886-1580365831.jpg",
     ],
   },
   {
-    offerPrice: 5989,
-    actualPrice: "6,999",
-    rating: 1,
+    offerPrice: 989,
+    actualPrice: "2,999",
+    rating: 4.4,
     name: "shirt",
     image: [
       "https://m.media-amazon.com/images/I/31EXeuRw1sL._AC_UL480_FMwebp_QL65_.jpg",
@@ -383,9 +383,9 @@ export const Data = [
   },
 
   {
-    offerPrice: 9,
-    actualPrice: "999",
-    rating: 1,
+    offerPrice: 900,
+    actualPrice: "2,999",
+    rating: 4.6,
     name: "sandal",
     image: [
       "https://contents.mediadecathlon.com/p1555674/637877ca0b0ff380e6113ddb73d40a0b/p1555674.jpg?f=650x650&format=auto",
@@ -403,15 +403,15 @@ export const Data = [
   {
     offerPrice: 978,
     actualPrice: "1,699",
-    rating: 4,
+    rating: 4.3,
     name: "sandal",
     image: [
       "https://images-na.ssl-images-amazon.com/images/I/61nSvArLSWL._UL1280_.jpg",
     ],
   },
   {
-    offerPrice: 8985,
-    actualPrice: "9,699",
+    offerPrice: 1985,
+    actualPrice: "3,699",
     rating: 5,
     name: "sandal",
     image: [
@@ -419,31 +419,31 @@ export const Data = [
     ],
   },
   {
-    offerPrice: 999,
+    offerPrice: 1999,
     actualPrice: "11,239",
-    rating: 4,
+    rating: 4.8,
     name: "sandal",
     image: ["https://images-na.ssl-images-amazon.com/images/I/41F6eliN3CL.jpg"],
   },
   {
-    offerPrice: 653,
-    actualPrice: "9,399",
-    rating: 3,
+    offerPrice: 1653,
+    actualPrice: "2,399",
+    rating: 4,
     name: "sandal",
     image: [
       "https://images-na.ssl-images-amazon.com/images/I/61XhwITIfmL._UL1500_.jpg",
     ],
   },
   {
-    offerPrice: 896,
-    actualPrice: "9,199",
-    rating: 1,
+    offerPrice: 2896,
+    actualPrice: "3,199",
+    rating: 5,
     name: "sandal",
     image: ["https://images-na.ssl-images-amazon.com/images/I/41PKHNlxj7L.jpg"],
   },
   {
-    offerPrice: 8999,
-    actualPrice: "10,999",
+    offerPrice: 1899,
+    actualPrice: "3,999",
     rating: 4,
     name: "sandal",
     image: [
@@ -452,11 +452,41 @@ export const Data = [
   },
   {
     offerPrice: 940,
-    actualPrice: "959",
-    rating: 2,
+    actualPrice: "1,959",
+    rating: 5,
     name: "sandal",
     image: [
       "https://i8.amplience.net/i/office/2840700000_md1.jpg?$newhighres$",
     ],
   },
+  {
+    offerPrice: 179,
+    actualPrice: "399",
+    rating: 5,
+    name: "mask",
+    image: [
+      "https://rukminim1.flixcart.com/image/416/416/kgfg2vk0/mask-respirator/w/t/q/free-size-2-accoxmps02msk104-cloth-mask-gear-original-imafwz36h7sbvbbc.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/416/416/kgfg2vk0/mask-respirator/w/t/q/free-size-2-accoxmps02msk104-cloth-mask-gear-original-imafwz36kfbjrbwk.jpeg?q=70"
+    ]
+  },
+  {
+    offerPrice: 139,
+    actualPrice: "289",
+    rating: 4.5,
+    image: [
+      "https://rukminim1.flixcart.com/image/416/416/kj7gwi80-0/mask-respirator/f/3/8/free-size-5-head-loop-n95-grey-red-respirator-insol-original-imafyts29b58wtzz.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/416/416/kj7gwi80-0/mask-respirator/q/e/n/free-size-10-head-loop-n95-grey-red-respirator-insol-original-imafyts3rstpzgyy.jpeg?q=70",
+      "https://rukminim1.flixcart.com/image/416/416/kj4m0sw0-0/mask-respirator/o/r/v/free-size-10-head-loop-n95-grey-red-respirator-insol-original-imafyrpx8ygyderd.jpeg?q=70"
+    ],
+    name: "mask"
+  },
+  {
+    offerPrice: 149,
+    actualPrice: "200",
+    rating: 5,
+    name: "mask",
+    image: [
+      "https://rukminim1.flixcart.com/image/416/416/kj4m0sw0-0/mask-respirator/o/r/v/free-size-10-head-loop-n95-grey-red-respirator-insol-original-imafyrpx8ygyderd.jpeg?q=70"
+    ]
+  }
 ];

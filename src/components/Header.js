@@ -1,14 +1,18 @@
 import React from 'react'
+
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+
 import './Header.css'
 import './LoginT.css'
-import Tippy from '@tippyjs/react';
-import 'tippy.js/dist/tippy.css';
 import MoreT from './MoreT'
 import LoginT from './LoginT';
+
+import Tippy from '@tippyjs/react';
 import 'tippy.js/themes/light.css'
+import 'tippy.js/dist/tippy.css';
+
 
 const Header = () => {
     return (
@@ -33,7 +37,7 @@ const Header = () => {
             </div>
 
             <div className='header__second'>
-                <input placeholder="Search for products, brands and more" type="text"></input>
+                <input placeholder="Search for products, brands and more" type="text" className="searchValue" />
                 <SearchIcon />
             </div>
 

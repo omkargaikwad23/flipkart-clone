@@ -1,7 +1,6 @@
 import React from 'react'
 import ShopIcon from '@material-ui/icons/Shop';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import GetAppIcon from '@material-ui/icons/GetApp';
 import LiveHelpIcon from '@material-ui/icons/LiveHelp';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
@@ -17,7 +16,7 @@ const MoreT = () => {
       </div>
       <hr />
       <div className="moret__in">
-        <BusinessCenterIcon />
+        <ShopIcon />
         <p>Sell on Flipkart</p>
       </div>
       <hr />

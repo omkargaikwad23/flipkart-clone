@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import { Data } from './Data'
 import { useState } from 'react'
 import Card from './components/Card'
-
+import FilterMenu from './components/FilterMenu'
 
 function App() {
   const [category, setCategory] = useState([])
@@ -12,15 +12,17 @@ function App() {
   useEffect(() => {
     alanBtn({
       key:
-        '844c133f37e3c2bf3688ea96f7e62f472e956eca572e1d8b807a3e2338fdd0dc/stage',
-      onCommand: ({ command, product }) => {
+        'ff0e25f22d9e3b27d32ba4377e4d85a22e956eca572e1d8b807a3e2338fdd0dc/stage',
+      onCommand: ({ command, product, amount }) => {
         if (command === '') {
           filter('');
         }
         if (command === 'show') {
           filter(product);
         }
-
+        if (command === 'show2' && amount > 0) {
+          filter(product, amount)
+        }
       }
     });
     filter(''); //for first time all items will be shown
@@ -42,7 +44,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <hr /> <hr /><hr /><hr /><hr />
-
+      <FilterMenu></FilterMenu>
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {
           category.map((item) => (
